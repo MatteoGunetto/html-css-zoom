@@ -32,11 +32,39 @@ background-color: black;
     border-radius: 5px;
 }
 
-
-
-
 /* regole main */
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
 
+}
+.webcam{
+    display: flex;
+    width:90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.immagine-webcam{
+    width: calc(100%/7 - 1px);
+    
+}
+img{
+    width: 100%;
+}
+.immagine{
+    position: relative;
+
+}
+#utente{
+    color: rgb(0, 0, 0);
+    background-color: green;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    padding: 2px;
+}
 
 
 
