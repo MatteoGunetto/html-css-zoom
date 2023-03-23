@@ -1,0 +1,42 @@
+/* regole debug */
+.test{
+    height: 100vh;
+    border: 10px solid green;
+}
+
+
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+.header-menu{
+display: flex;
+justify-content: flex-end;
+}
+.top-button{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: rgb(254, 254, 254);
+    
+}
+.table,.maximaze{
+    font-size: 12px;
+    background-color: gray;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+
+
+/* regole main */
+
+
+
+
+/* regole footer */
